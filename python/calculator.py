@@ -18,4 +18,4 @@ else:
     print("Wrong operation")  
 
     #pip install pyinstaller
-    
+input()
