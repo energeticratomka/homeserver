@@ -1,11 +1,11 @@
 #Buid Webserver during bootstrap
 
 provider "aws" {
-  region - "eu-central-1"
+  region = "eu-central-1"
 }
 
 resource "aws_instanse" "Webserver" {
-  ami "ami-0b579bbec4f1176e8"
+  ami "ami-03a71cec707bfc3d7"
   instanse_type = "t2.micro"
   vpc_security_group_ids = [aws_security_group.Webserver]
   user_data = <<EOF
