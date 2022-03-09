@@ -1,0 +1,12 @@
+{
+	"folders": [
+		{
+			"path": "../../../../github"
+		},
+		{
+			"name": "homeserver",
+			"path": "../../.."
+		}
+	],
+	"settings": {}
+}
